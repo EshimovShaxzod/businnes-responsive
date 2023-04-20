@@ -1,0 +1,174 @@
+@media (max-width:970px){
+    .info h1{
+        font-size: 39px;
+        line-height: 1.5;
+    }
+    .hero_pic{
+        width: 35%;
+    }
+    .customer_info h3{
+        font-size: 35px;
+        line-height: 1.3;
+    }
+    .customer_describe{
+        margin-bottom: 86px;
+    }
+    .customer_pic img{
+        width: 93%;
+    }
+}
+
+@media (max-width:768px){
+    .nav_list{
+        display: none;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .info_describe{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+    .hero_pic{
+        width: 100%;
+        height: 100%;
+    }
+
+    .services_about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+     .customer_pic img{
+        width: 100%;
+     }
+
+    .teams{
+        padding-top: 40px;
+        display: block;
+        height: 950px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+    }
+     
+    .forms{
+        padding-top: 40px;
+    }
+    .form_box h2{
+        font-size: 35px;
+    }
+    .footer_link{
+        padding: 0 3px;
+    }
+}
+
+@media (max-width:620px){
+    .customer_describe{
+        display: block;
+        text-align: center;
+    }
+    .customer_info{
+        padding: 15px 25px;
+    }
+    .customer_info h3{
+        font-size: 28px;
+    }
+
+    .form_box h2{
+        font-size: 28px;
+    }
+    .form_box p{
+        padding: 0 15px;
+    }
+
+    .footer_list{
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:530px){
+    .hero_pic img{
+        width: 100%;
+        height: auto;
+       }
+
+    .teams{
+        height: 1600px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .team_about{
+        margin-right: 0;
+        column-gap: 20px;
+      }
+    .services_about{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    .services_box{
+        margin-right: 0;
+      }
+    footer{
+        height: auto;
+      }
+    .footer_link{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+      }
+    .footer_list{
+        margin-bottom: 20px;
+      }
+    .footer_active{
+        color: rgba(188, 226, 188, 0.933);
+      }
+}
+
+@media (max-width:430px){
+    .services p{
+        padding: 0 15px;
+    }
+
+    .teams{
+        height: 1600px;
+        display: block;
+    }
+    .teams h2{
+        font-size: 35px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .team_about{
+        margin-right: 0;
+    }
+
+    .forms{
+        height: 470px;
+    }
+    .form_box h2{
+        line-height: 1.3;
+    }
+    .form input{
+        width: 90%;
+        margin-bottom: 25px;
+        padding: 15px 12px;
+    }
+    .form button{
+        padding: 12px 25px;
+    }
+}
